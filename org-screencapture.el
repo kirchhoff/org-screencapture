@@ -47,6 +47,5 @@ same directory as the org-buffer and insert a link to this file."
   (message filename)
   )
 
-(global-set-key (kbd "C-c s c") 'my-org-screenshot)
 
 (provide 'org-screencapture)
