@@ -1,4 +1,7 @@
 # org-screencapture
+* screenshot
+[[file:README.org_imgs/20160420_191036_25783jPs.png]]
+In retina OSX system , I use [[http://www.imagemagick.org/script/command-line-processing.php][convert]] to resize the screenshot to get a suitable png file, because the retina osx system's *screencapture* command always generates high resolution png file.
 * Installation and configuration
 put org-screencapture.el into your load-path and the following into your ~/.emacs
 #+BEGIN_SRC emacs-lisp
@@ -6,5 +9,4 @@ put org-screencapture.el into your load-path and the following into your ~/.emac
 (global-set-key (kbd "C-c s c") 'my-org-screenshot)
 #+END_SRC
 then you can use the C-c s c to capture pictures in your org file.
-
 
