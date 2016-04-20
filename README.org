@@ -1,0 +1,10 @@
+# org-screencapture
+* Installation and configuration
+put org-screencapture.el into your load-path and the following into your ~/.emacs
+#+BEGIN_SRC emacs-lisp
+(require 'org-screencapture)
+(global-set-key (kbd "C-c s c") 'my-org-screenshot)
+#+END_SRC
+then you can use the C-c s c to capture pictures in your org file.
+
+
