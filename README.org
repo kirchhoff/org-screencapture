@@ -1,12 +1,8 @@
 # org-screencapture
-<<<<<<< HEAD
 * Screenshot
 [[file:README.org_imgs/20160420_191036_25783jPs.png]]
 
-=======
-* screenshot
-[[file:README.org_imgs/20160420_191036_25783jPs.png]]
->>>>>>> 0d2291e4e669b29b5967aa10cb82a558d762c4de
+
 In retina OSX system , I use [[http://www.imagemagick.org/script/command-line-processing.php][convert]] to resize the screenshot to get a suitable png file, because the retina osx system's *screencapture* command always generates high resolution png file.
 * Installation and configuration
 put org-screencapture.el into your load-path and the following into your ~/.emacs
